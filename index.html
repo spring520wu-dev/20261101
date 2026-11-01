@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <!-- 1. 修改 viewport：加入 maximum-scale 與 user-scalable=no 防止手機雙擊縮放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>臺灣特產與建築・環島集章大冒險</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- 2. 加入 CSS：消除邊界、隱藏滾動條，並防止手機下拉刷新 -->
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* 防止出現滾動條 */
+        background-color: #f5f5fa;
+        touch-action: none; /* 關鍵：禁止手機下拉刷新與螢幕滑動手勢 */
+      }
+      canvas {
+        display: block; /* 消除內聯元素底部的微小空隙 */
+      }
+    </style>
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <!-- 請確保這裡的 js 檔名與你的主要程式碼檔名一致（例如 sketch.js 或 sketch1101_2.js） -->
+    <script src="sketch.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+ -->
